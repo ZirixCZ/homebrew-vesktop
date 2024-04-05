@@ -1,5 +1,5 @@
 cask "vesktop" do
-  version "1.5.0"
+  version "1.5.1"
   sha256 on_arch_conditional arm: "1d2383344eb0f6f8f5d8eb9d4a14ae116236d6d3bc8e0db5246d0c3dd39cc2da",
     intel: "0f401a11ec91b39fd433782f62a8fbe4047c17d996e4febc4fd20ca925d6f067"
 
