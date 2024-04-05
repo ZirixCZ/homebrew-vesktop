@@ -1,7 +1,7 @@
 cask "vesktop" do
   version "1.5.0"
-  sha256 on_arch_conditional arm: "16dba322c4f41e1d303293ef94a66654943918f61806225bfce2a2eadd978a1d",
-    intel: "b76a61b50dfe0fde6f1900383972f510af0ed77e2b018d6cd7ba5f9a08c29374"
+  sha256 on_arch_conditional arm: "1d2383344eb0f6f8f5d8eb9d4a14ae116236d6d3bc8e0db5246d0c3dd39cc2da",
+    intel: "0f401a11ec91b39fd433782f62a8fbe4047c17d996e4febc4fd20ca925d6f067"
 
   url on_arch_conditional arm: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}-arm64.dmg",
     intel: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}.dmg"
