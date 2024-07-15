@@ -1,10 +1,10 @@
 cask "vesktop" do
-  version "1.5.1"
-  sha256 on_arch_conditional arm: "1d2383344eb0f6f8f5d8eb9d4a14ae116236d6d3bc8e0db5246d0c3dd39cc2da",
-    intel: "0f401a11ec91b39fd433782f62a8fbe4047c17d996e4febc4fd20ca925d6f067"
+  version "1.5.3"
+  sha256 on_arch_conditional arm: "71e39434748e684a826f390ceb846d52ed1886bab8b5385c5d94c377e3ac1172",
+    intel: "71e39434748e684a826f390ceb846d52ed1886bab8b5385c5d94c377e3ac1172"
 
-  url on_arch_conditional arm: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}-arm64.dmg",
-    intel: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}.dmg"
+  url on_arch_conditional arm: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}-universal.dmg",
+    intel: "https://github.com/Vencord/Vesktop/releases/download/v#{version}/Vesktop-#{version}-universal.dmg"
 
   name "Vesktop"
   desc "Vesktop gives you the performance of web Discord and the comfort of Discord Desktop"
